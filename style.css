@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #090e34;
+     
+}
+.menubar {
+    //border: 1px solid red;
+    width: 95%;
+    height: 75px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.leftbox {
+    //border: 1px solid greenyellow;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.lb1 {
+    //border: 1px solid white;
+    width: 50%;
+    height: 90%;
+    background-image: url(https://startup-tailwind.preview.uideck.com/images/logo/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 280%;
+}
+.lb2 {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    right: 23px;
+    bottom: 5px;
+    letter-spacing: 1px;
+    background-color: #090e34;
+}
+.lb2 h1 {
+    font-size: 30px;
+    color: white;
+}
+.center {
+    //border: 1px solid greenyellow;
+    height: 100%;
+    width: 45%;
+    position: absolute;
+    left: 240px;
+}
+.center ul {
+    display: flex;
+    justify-content: space-around;
+}
+.center ul li {
+    list-style: none;
+}
+.center ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    float: left;
+    font-weight: 200;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.center ul li a:hover {
+    //transition: 0.5s;
+    color: rgb(192, 181, 181);
+}
+.rightbox {
+    //border: 1px solid greenyellow;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightbox span {
+   color: white;
+   font-size: 16px;
+   font-weight: 900;
+   letter-spacing: 0.5px;
+}
+.btn {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    background-color: #4666ea;
+    font-weight: 900;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+}
+.subcontainer {
+    //border: 1px solid rebeccapurple;
+    width: 95%;
+    height: 80%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.subbox1 {
+    //border: 1px solid white;
+    width: 60%;
+    height: 70%;
+}
+.subbox1 h1 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 70px;
+}
+.subbox1 p {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 400;
+}
+.subbox2 {
+    //border: 1px solid white;
+    width: 28%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.getbtn {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    background-color: #4666ea;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #4666ea;
+}
+.getbtn:hover {
+    background-color: #708af1;
+}
+.Learnbtn {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    background-color: #3a3e5d;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #3a3e5d;
+}
+.Learnbtn:hover {
+    background-color: #5a5d75;
+}
